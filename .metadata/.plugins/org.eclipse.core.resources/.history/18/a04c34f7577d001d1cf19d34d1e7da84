@@ -1,0 +1,19 @@
+package n1exercici1;
+
+public class Main {
+	public static void main(String args[]) throws VendaBuidaException {
+		System.out.println("Hello world!");
+		
+		Venda venda = new Venda();
+		
+		Producte prod1 = new Producte("wii", 150.00);
+		Producte prod2 = new Producte("smart watch", 99.50);
+		
+		System.out.println(prod1.toString());
+		System.out.println(prod2.toString());
+		
+		//venda.productes.add(prod1);
+		
+		venda.calcularTotal();
+	}
+}

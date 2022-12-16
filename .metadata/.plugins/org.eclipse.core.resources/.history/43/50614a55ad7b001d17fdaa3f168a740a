@@ -1,0 +1,20 @@
+package n1exercici2;
+
+public class Cotxe {
+
+	public static final String MARCA = "Hispano-Suiza";
+	public static String model;
+	public final int potencia;
+	
+	public Cotxe() {
+		this.potencia = 1024;
+	}
+	
+	public void accelerar() {
+		System.out.println("El cotxe està accelerant.");
+	}
+	
+	public void frenar() {
+		System.out.println("El cotxe està frenant.");
+	}
+}

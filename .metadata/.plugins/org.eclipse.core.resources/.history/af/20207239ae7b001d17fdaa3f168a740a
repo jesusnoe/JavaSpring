@@ -1,0 +1,15 @@
+package n1exercici2;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		System.out.println("Hello world");
+		
+		Cotxe cotxe1 = new Cotxe("Carmen");
+		System.out.println(cotxe1.MARCA);
+		System.out.println(cotxe1.potencia);
+		cotxe1.accelerar();
+		cotxe1.frenar();
+		
+	}
+}

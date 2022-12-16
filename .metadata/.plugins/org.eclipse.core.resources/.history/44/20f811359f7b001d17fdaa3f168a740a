@@ -1,0 +1,8 @@
+package exercici1;
+
+abstract class Instrument {
+	private String nom = "";
+	private double preu = 0.0;
+	
+	abstract void tocar();
+}

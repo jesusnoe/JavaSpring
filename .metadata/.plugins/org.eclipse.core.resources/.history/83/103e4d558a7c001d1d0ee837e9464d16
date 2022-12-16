@@ -1,0 +1,19 @@
+package n1exercici1;
+import java.util.ArrayList;
+
+public class Venda {
+
+	public ArrayList<Producte> productes = new ArrayList<Producte>();
+	public double total;
+
+	public void calcularTotal() {
+		try {
+			System.out.println("Intent");
+			for ( int index = 0; index == productes.size()) {
+					System.out.println(productes[index].nom);
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("Something happends");
+		}
+	}
+}

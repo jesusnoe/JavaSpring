@@ -1,0 +1,11 @@
+package n1exercici1;
+
+public class Venda {
+
+	ArrayList<Producte> productesList = new ArrayList<>();
+
+	public void calcularTotal() {
+		//System.out.println("Primer s'han d'afegir productes");
+		System.out.println(productesList.size());
+	}
+}

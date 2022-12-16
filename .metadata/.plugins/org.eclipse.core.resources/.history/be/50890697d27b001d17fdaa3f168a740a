@@ -1,0 +1,14 @@
+package n2exercici1;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Hello world!");
+		
+		// Declarem nou telèfon	
+		Smartphone xiaomi = new Smartphone();
+		
+		xiaomi.trucar("670092678");
+		xiaomi.fotografiar();
+		xiaomi.alarma();
+	}
+}

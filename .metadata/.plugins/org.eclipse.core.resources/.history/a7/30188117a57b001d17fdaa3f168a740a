@@ -1,0 +1,22 @@
+package exercici1;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		/* Printem cada moment per veure 
+		 * quan s'inicialitzen les diferents 
+		 * classes i mètodes 
+		 */
+		
+		System.out.println("Hello world");
+		
+		System.out.println("Anem a crear instrument \"Flauta\"");
+		
+		Vent flauta = new Vent("Flauta", 35.00);
+		
+		flauta.tocar();
+		
+		System.out.println("Anem a crear instrument \"Trompeta\"");
+		Vent trompeta = new Vent("Trompeta", 120.50);
+	}
+}

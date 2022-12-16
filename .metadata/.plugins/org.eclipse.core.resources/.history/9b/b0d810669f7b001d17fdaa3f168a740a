@@ -1,0 +1,21 @@
+package exercici1;
+
+abstract class Instrument {
+	private String nom = "";
+	private double preu = 0.0;
+	
+	abstract void tocar();
+}
+
+class Vent extends Instrument {
+	void tocar() {
+		System.out.println("Està sonant un instrument de vent");
+	}
+}
+
+class Main {
+	public static void main(String[] args) {
+		Vent vent1 = new Vent();
+		vent1.tocar();
+	}
+}

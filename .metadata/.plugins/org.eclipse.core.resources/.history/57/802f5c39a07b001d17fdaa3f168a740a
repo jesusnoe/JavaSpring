@@ -1,0 +1,6 @@
+package exercici1;
+
+abstract class Instrument {
+	String nom = "";
+	double preu = 0.00;
+}

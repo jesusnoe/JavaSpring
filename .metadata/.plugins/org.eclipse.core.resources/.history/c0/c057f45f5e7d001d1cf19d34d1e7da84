@@ -1,0 +1,15 @@
+package n1exercici1;
+import java.util.ArrayList;
+
+public class Venda {
+
+	public ArrayList<Producte> productes = new ArrayList<Producte>();
+	
+	public double total;
+
+	public void calcularTotal() {
+		total = 20.00;
+		
+		System.out.println(total);
+	}
+}

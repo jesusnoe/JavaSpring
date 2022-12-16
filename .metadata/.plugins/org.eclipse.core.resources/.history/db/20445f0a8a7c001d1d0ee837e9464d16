@@ -1,0 +1,21 @@
+package n1exercici1;
+import java.util.ArrayList;
+
+public class Venda {
+
+	public ArrayList<Producte> productes = new ArrayList<Producte>();
+	public double total;
+
+	public void calcularTotal() {
+		try {
+			System.out.println("Intent");
+			if(productes.size() > -1) {
+				for (Producte p:productes) {
+					System.out.println(p.nom);
+				}
+			}
+		} catch(Exception e) {
+			System.out.println("Something happends");
+		}
+	}
+}

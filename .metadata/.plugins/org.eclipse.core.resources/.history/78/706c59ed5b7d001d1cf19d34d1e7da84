@@ -1,0 +1,22 @@
+package n1exercici1;
+import java.util.ArrayList;
+
+public class Venda {
+
+	public ArrayList<Producte> productes = new ArrayList<Producte>();
+	
+	public double total;
+
+	public void calcularTotal() throws VendaBuidaException {
+		try {
+			mirarProductes();
+		}
+		catch(VendaBuidaException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+	
+	static void mirarProductes() throws VendaBuidaException {
+		
+	}
+}

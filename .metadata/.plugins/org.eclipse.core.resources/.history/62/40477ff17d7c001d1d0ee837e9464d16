@@ -1,0 +1,9 @@
+package n1exercici1;
+
+public class Producte {
+
+	// Atributs
+	public String nom;
+	public double preu;
+	
+}

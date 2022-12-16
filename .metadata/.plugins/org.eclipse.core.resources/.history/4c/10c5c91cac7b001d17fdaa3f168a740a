@@ -1,0 +1,14 @@
+package n1exercici2;
+
+public class Cotxe {
+
+	private static final MARCA = "Hispano-Suiza";
+	
+	public void accelerar() {
+		System.out.println("El cotxe està accelerant.");
+	}
+	
+	public void frenar() {
+		System.out.println("El cotxe està frenant.");
+	}
+}

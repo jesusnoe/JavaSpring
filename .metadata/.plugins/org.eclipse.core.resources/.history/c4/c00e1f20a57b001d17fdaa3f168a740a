@@ -1,0 +1,14 @@
+package exercici1;
+
+abstract class Instrument {
+	static {
+		System.out.println("Carrega Instrument");
+	}
+	
+	// Atributs
+	private String nom;
+	private double preu;
+	
+	abstract void tocar() ;
+	
+}
