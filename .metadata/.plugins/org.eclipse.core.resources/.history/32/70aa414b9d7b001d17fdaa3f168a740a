@@ -1,6 +1,0 @@
-package exercici1;
-
-class Instrument {
-	private String nom = "";
-	private float preu = "0.00";
-}

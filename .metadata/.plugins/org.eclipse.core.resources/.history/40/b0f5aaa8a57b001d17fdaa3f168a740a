@@ -1,7 +1,0 @@
-package exercici1;
-
-public class Corda extends Instrument {
-	{
-		System.out.println("Carrega instrument de corda");
-	}
-}

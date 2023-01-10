@@ -1,8 +1,0 @@
-package exercici1;
-
-abstract class Instrument {
-	public String nom = "";
-	public double preu = 0.00;
-	
-	abstract void tocar() ;
-}

@@ -1,7 +1,0 @@
-package exercici1;
-
-public class Vent extends Instrument {
-	void tocar() {
-		System.out.println("Està sonant un instrument de vent");
-	}
-}

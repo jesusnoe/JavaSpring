@@ -1,9 +1,0 @@
-package exercici1;
-
-public class Main {
-	public static void main(String[] args) {
-		System.out.println("Hello world");
-		
-		Vent vent1 = new Vent();
-	}
-}
