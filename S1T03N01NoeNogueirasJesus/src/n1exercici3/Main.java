@@ -25,10 +25,10 @@ public class Main {
 	
 	static void writeResults(String name, List<Integer> resultats) {
 	    try {
-	        FileWriter myFile = new FileWriter("C:\\Users\\web\\java-spring\\S1T03N01NoeNogueirasJesus\\src\\n1exercici3\\resultats.txt");
+	        FileWriter myFile = new FileWriter("C:\\Users\\web\\java-spring\\S1T03N01NoeNogueirasJesus\\src\\n1exercici3\\classificacio.txt");
 	        myFile.write(name + " has tingut " + resultats.get(0) + " encerts i " + resultats.get(1) + " errades");
 	        myFile.close();
-	        System.out.println("Resultats desats a resultats.txt");
+	        System.out.println("Resultats desats a classificacio.txt");
 	      } catch (IOException e) {
 	        System.out.println("An error occurred.");
 	        e.printStackTrace();
